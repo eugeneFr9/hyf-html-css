@@ -1,0 +1,74 @@
+body {
+background-color: #EBECFF;
+}
+#nhl {
+position: fixed;
+top: 0;
+right: 0;
+width: 30px; 
+border: 2px solid red;
+}
+.pictures {
+width: 550px;
+border: 3px solid red;
+}
+#kucherrussia {
+float: left;
+margin-right: 20px;
+}
+#kuchertbl {
+float: left;
+margin-right: 20px;
+}
+#kuchertbl2 {
+float: right;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+background-color: red;
+}
+#carst {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+width: 100%;
+}
+#carst td, #carst th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#carst th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#carst tr:nth-child(even){background-color: #f2f2f2;}
+#carst tr:hover {background-color: #ddd;}
+#statistics {
+clear: left;
+}
+span {
+font-family: fantasy, serif;
+}
