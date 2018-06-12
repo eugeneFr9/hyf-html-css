@@ -2,4 +2,4 @@ Creating a hidden file: touch .hiddenfile.txt (the name of the hidden file)
 To display that hidden file: ls -a
 To create multiple nested directories with one mkdir command: mkdir -p these/folders/are/just/for/fun
 Verifying number in the file fun: 18
-how to append something in the file *WITHOUT* a newline character: could not fine it....need some help:))
+how to append something in the file *WITHOUT* a newline character: printf "test" > fun: printf "another test" >> fun
